@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sumire</title>
+        <meta name="description" content="web application that redefines the communication">
+        <meta name="author" content="futae">
+
+        <link rel="stylesheet" href="search_from_mymap.css">
+        <link rel="icon" href="sumire.ico">
+    </head>
+
+    <body>
+        <header>
+             <img class="hamb" src="hamb.png">
+             <div class="logo-set">
+                <img class="logo2" src="logo2.png">
+                <img class="text" src="text.png">
+             </div>
+        </header>
+        <content>
+            <div class="buttons">
+                <input type="checkbox" class="not-check" id="eat"><label for="eat">食べる</label>
+                <input type="checkbox" class="not-check" id="see"><label for="see">見る 遊ぶ</label>
+                <input type="checkbox" class="not-check" id="buy"><label for="buy">買う</label>
+                <input type="checkbox" class="not-check" id="stay"><label for="stay">泊まる</label>
+            </div>
+            
+            <select class="mymap-select" name="すべてのマイマップ" size="1">
+                <option value="サンプル1">サンプル1</option>
+                <option value="サンプル2">サンプル2</option>
+                <option value="サンプル3">サンプル3</option>
+                <option value="サンプル3">サンプル4</option>
+            </select>
+            <div class="switch-column">
+                <p>この時間に営業中のスポットのみ</p>
+                <div class="switch">
+                    <label class="switch__label">
+                        <input type="checkbox" class="switch__input"/>
+                        <span class="switch__content"></span>
+                        <span class="switch__circle"></span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="enter">マイマップからスポットを検索</div>
+        </content>
+    </body>
+</html>

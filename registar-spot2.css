@@ -1,0 +1,159 @@
+body{
+    width: 375px;
+    margin:10px auto;
+}
+
+header{
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: solid #9B9B9B thin;
+}
+
+content{
+    display: block;
+}
+
+.hamb{
+    cursor: pointer;
+    cursor: hand;
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    position: absolute;
+    width: 30px;
+}
+
+.logo-set{
+    height: 30px;
+    margin: 0px auto;
+    width: 130px;
+}
+
+.logo2{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 100px;
+}
+
+#search-word{
+    color: #4C4C4C;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line{
+    background-color: #e6e6e6;
+    border-radius: 3px;
+    color: #4C4C4C;
+    font-size: 12px;
+    height: 46px;
+    line-height: 4px;
+    margin: 10px 0px;
+    margin-left: 22px;
+    padding-top: 5px;
+    padding-left: 6px;
+    width: 323px;
+}
+
+.line p{
+    padding-left: 17px;
+}
+
+.view-map{
+    display: block;
+    float: right;
+    height: 20px;
+    margin-right: 22px;
+    margin-bottom: 30px;
+}
+
+.view-map:hover{
+    cursor: pointer;
+    cursor: hand;
+}
+
+#arrow{
+    display: inline-block;
+    float: left;
+    height: 18px;
+    margin-right: 5px;
+    width: 18px;
+}
+
+#map-text{
+    display: inline-block;
+    color: #9B9B9B;
+    font-size: 12px;
+    float: left;
+    margin: 0px;
+}
+
+#mymap-select{
+    border-radius: 10px;
+    border: solid thin #9B9B9B;
+    color: #4C4C4C;
+    height: 50px;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 333px;    
+}
+
+#textarea-1{
+    border-radius: 8px;
+    border: solid thin #9B9B9B;
+    color: #4C4C4C;
+    font-size: 12px;
+    height: 60px;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    width: 310px;
+}
+
+#textarea-2{
+    border-radius: 8px;
+    border: solid thin #9B9B9B;
+    color: #4C4C4C;
+    font-size: 12px;
+    height: 60px;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    width: 310px;
+}
+
+#add-pic{
+    background-color: #9B9B9B;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 12px;
+    float: right;
+    margin-right: 22px;
+    margin-top: 10px;
+    padding: 4px 4px;
+}
+
+.enter{
+    background-color: #70CADF;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    cursor: hand;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px auto;
+    margin-top: 60px;
+    bottom: 20px;
+    text-align: center;
+    width: 375px;
+    z-index: 999;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>sumire</title>
+        <meta name="description" content="web application that redefines the communication">
+        <meta name="author" content="futae">
+
+        <link rel="stylesheet" href="edit-mymap.css">
+        <script type="text/javascript" src="edit-mymap.js"></script>
+        <link rel="icon" href="sumire.ico">
+    </head>
+
+    <body>
+        <header>
+             <img class="hamb" src="hamb.png">
+             <div class="logo-set">
+                <img class="logo2" src="logo2.png">
+                <img class="text" src="text.png">
+             </div>
+        </header>
+        <content>
+            <input id="spot-name" type="text" name="text" placeholder="スポット名">
+            <div class="check">
+                <input id="all" type="radio" name="公開範囲"><label for="all">全体に公開</label>
+            </div>
+            <div class="check">
+                <input id="follower" type="radio" name="公開範囲"><label for="follower">フォロワーにのみ公開</label>
+            </div>
+            <div class="check">
+                <input id="not" type="radio" name="公開範囲"><label for="not">非公開（自分のみ）</label>
+            </div>
+            <textarea id="textarea-1" rows="10" cols="60" placeholder="タグ（任意）"></textarea>
+            <textarea id="textarea-2" rows="10" cols="60" placeholder="メモ"></textarea>
+            <div class="buttons">
+                <div class="mini-enter" id="add-pic">写真を設定</div>
+                <div id="text-3">
+                    <p>設定はあとから変更できます</p>
+                </div>
+                <button onclick ="showPopup();" class="mini-enter" id="delete-map">このマイマップを削除</button>
+            </div>
+            <div class="enter">マイマップを作成</div> 
+            
+            <!--　ポップアップ　-->
+            <div id="layer"></div>
+            <div id="popup">
+                <div id="warning">マイマップを<br>削除しますか？</div>
+                <input id="yes" type="button" name="button" value="はい">
+                <input id="no" type="button" name="button" value="いいえ">
+            </div>
+        </content>
+    </body>
+</html>

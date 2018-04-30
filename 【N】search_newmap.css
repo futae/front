@@ -1,0 +1,118 @@
+body{
+    width: 375px;
+    margin:10px auto;
+}
+
+header{
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: solid #9B9B9B thin;
+}
+
+content{
+    display: block;
+}
+
+.hamb{
+    cursor: pointer;
+    cursor: hand;
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    position: absolute;
+    width: 30px;
+}
+
+.logo-set{
+    height: 30px;
+    margin: 0px auto;
+    width: 180px;
+}
+
+.logo2{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 100px;
+}
+
+.mymap-select{
+    border-radius: 10px;
+    height: 50px;
+    margin: 30px auto;
+    width: 365px;
+}
+
+.home{
+    background-color: black;
+    cursor: pointer;
+    cursor: hand;
+    height: 170px;
+    width:375px;
+}
+
+.home:hover{
+    opacity: 0.5;
+}
+
+.home-word1{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.home-word2{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+boxes{
+    width: 375px;
+}
+
+.box-column{
+    height: 155px;
+    margin: 25px auto;
+    width: 375px;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    float: left;
+    height: 163px;
+    line-height: 163px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    width: 163px; 
+}
+
+.box p{
+    color: white;
+    font-size: 12px;
+    vertical-align: middle;
+    position: absolute;
+    top: 2%;
+}
+
+.box:hover{
+    cursor: pointer;
+    cursor: hand;
+    opacity: 0.5;
+}

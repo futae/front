@@ -1,0 +1,55 @@
+body{
+    width: 375px;
+    margin:10px auto;
+}
+
+header{
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+    border-bottom: solid #9B9B9B thin;
+}
+
+content{
+    display: block;
+}
+
+.hamb{
+    cursor: pointer;
+    cursor: hand;
+    float: left;
+    height: 30px;
+    margin-left: 15px;
+    position: absolute;
+    width: 30px;
+}
+
+.logo-set{
+    height: 30px;
+    margin: 0px auto;
+    width: 130px;
+}
+
+.logo2{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    display: inline;
+    float: left;
+    height: 30px;
+    width: 100px;
+}
+
+#search-box{
+    border: solid thin #9B9B9B;
+    border-radius: 8px;
+    color: #4C4C4C;
+    height: 40px;
+    margin: 30px 20px;
+    padding: 0px 10px;
+    width: 330px;
+}
