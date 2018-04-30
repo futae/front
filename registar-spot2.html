@@ -58,7 +58,16 @@
             <textarea id="textarea-1" rows="10" cols="60" placeholder="タグ（任意）"></textarea>
             <textarea id="textarea-2" rows="10" cols="60" placeholder="メモ"></textarea>
             <div id="add-pic">写真を設定</div>
-            <div class="enter">マイマップに登録</div>
+
+            <button class="enter" id="delete-map">
+                    <input id="navInput" class="navUnshown" type="checkbox">
+                    <label id="navOpen" for="navInput">このマイマップに登録</label>
+                    <label id="navClose" class="navUnshown" for="navInput"></label>
+                    <div id="navContent">
+                        <img id="logoInContent" class="logo2" src="logo2.png">
+                        <p>スポットを<br>登録しました</p>
+                    </div>
+            </button>
         </content>
     </body>
 </html>

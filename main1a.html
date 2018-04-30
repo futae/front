@@ -10,27 +10,33 @@
         <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
         <link rel="stylesheet" href="main1a.css">
-        <script type="text/javascript" src="main1a.js"></script>
         <link rel="icon" href="sumire.ico">
     </head>
 
     <body>
         <header>
-            <button onclick = "naviToggleFunc();" type="button" id="naviToggle" class="naviToggleButton">
-                <img id="hamb" src="hamb.png">
-                <ul id="naviList" class="naviList close">
-                    <li>ホーム</li>
-                    <li>マイマップに<br>スポットを登録</li>
-                    <li>マイマップを作成</li>
-                    <li>ユーザーを検索</li>
-                    <li>マイマップを検索</li>
-                </ul>
-            </button>
+            <div id="navDrawer">
+                <input id="navInput" class="navUnshown" type="checkbox">
+                <label id="navOpen" for="navInput"><span></span></label>
+                <label id="navClose" class="navUnshown" for="navInput"></label>
+                <div id="navContent">
+                    <img id="logoInContent" class="logo2" src="logo2.png">
+                    <ul>
+                        <li>ホーム</li>
+                        <li>マイマップに<br>スポットを登録</li>
+                        <li>マイマップを作成</li>
+                        <li>ユーザーを検索</li>
+                        <li>マイマップを検索</li>
+                        <li>ログアウト</li>
+                    </ul>
+                </div>
+            </div>
             <div class="logo-set">
                 <img class="logo2" src="logo2.png">
                 <img class="text" src="text.png">
             </div>
         </header>
+
         <content>
             <div class="prof">
                 <img class="prof-icon" src="icon.png">

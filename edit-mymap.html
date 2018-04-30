@@ -38,17 +38,19 @@
                 <div id="text-3">
                     <p>設定はあとから変更できます</p>
                 </div>
-                <button onclick ="showPopup();" class="mini-enter" id="delete-map">このマイマップを削除</button>
+                <button class="mini-enter" id="delete-map">
+                    <input id="navInput" class="navUnshown" type="checkbox">
+                    <label id="navOpen" for="navInput">このマイマップを削除</label>
+                    <label id="navClose" class="navUnshown" for="navInput"></label>
+                    <div id="navContent">
+                        <img id="logoInContent" class="logo2" src="logo2.png">
+                        <p>マイマップを<br>削除しますか？</p>
+                        <input id="yes" type="button" name="button" value="はい "></input>
+                        <input id="no" type="button" name="button" value="いいえ"></input>
+                    </div>
+                </button>
             </div>
             <div class="enter">マイマップを作成</div> 
-            
-            <!--　ポップアップ　-->
-            <div id="layer"></div>
-            <div id="popup">
-                <div id="warning">マイマップを<br>削除しますか？</div>
-                <input id="yes" type="button" name="button" value="はい">
-                <input id="no" type="button" name="button" value="いいえ">
-            </div>
         </content>
     </body>
 </html>
