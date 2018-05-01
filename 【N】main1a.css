@@ -201,16 +201,6 @@ content{
     width: 100px;
 }
 
-.boxContainer{
-    display: block;
-    margin-left: 20px;
-    height: auto;
-    min-height: 100%;
-    overflow: hidden;
-    position: relative;
-    width: 355px;
-}
-
 .enter{
     background-color: #70CADF;
     border-radius: 40px;
@@ -221,7 +211,19 @@ content{
     line-height: 50px;
     margin: 0px auto;
     margin-top: 30px;
+    bottom: 20px;
     text-align: center;
+    width: 375px;
+}
+
+boxes{
+    width: 375px;
+}
+
+.box-column{
+    height: 157px;
+    margin: 25px auto;
+    padding-right: 20px;
     width: 375px;
 }
 
@@ -229,14 +231,13 @@ content{
     background-color: black;
     border-radius: 5px;
     color: white;
-    display: block;
+    display: inline-block;
     font-size: 12px;
     line-height: 163px;
     float: left;
     height: 157px;
     text-align: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-left: 20px;
     position: relative;
     width: 157px; 
 }
