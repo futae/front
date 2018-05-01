@@ -8,6 +8,8 @@
         <meta name="author" content="futae">
 
         <link rel="stylesheet" href="spot-detail.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
         <link rel="icon" href="sumire.ico">
     </head>
 
@@ -25,7 +27,19 @@
             <h1>店名</h1>
             <p>住所</p>
             <p>電話番号</p>
-            <p>営業時間</p>
+            <input id="openHour" type="checkbox" name="checkbox">
+            <label id="openHourLabel"for="openHour">営業時間
+            <i class="fas fa-angle-down"></i>
+            </label>
+            <ul id="openHourList">
+                <li>月　11時00分〜19時00分</li>
+                <li>火　11時00分〜19時00分</li>
+                <li>水　11時00分〜19時00分</li>
+                <li>木　11時00分〜19時00分</li>
+                <li>金　11時00分〜19時00分</li>
+                <li>土　11時00分〜19時00分</li>
+                <li>日　11時00分〜19時00分</li>
+            </ul>
             <p>webページ</p>
             <div class="view-map">
                 <img id="arrow" src="arrow2.png">
