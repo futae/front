@@ -98,6 +98,7 @@ content{
 }
 
 #mymap-select{
+    background-color: white;
     border-radius: 10px;
     border: solid thin #9B9B9B;
     color: #4C4C4C;
@@ -228,5 +229,4 @@ content{
     bottom: 20px;
     text-align: center;
     width: 375px;
-    z-index: 999;
 }

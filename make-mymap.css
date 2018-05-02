@@ -208,7 +208,6 @@ content{
     bottom: 20px;
     text-align: center;
     width: 375px;
-    z-index: 999;
 }
 
 #mymap-select{
