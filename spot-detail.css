@@ -154,6 +154,7 @@ content p{
     height: 120px;
     margin: 20px;
     padding: 10px;
+    resize: none;
     width: 313px;
 }
 
@@ -176,19 +177,41 @@ content p{
     background-color: #9B9B9B;
     border-radius: 5px;
     color: white;
-    display: inline;
+    display: block;
     float: right;
     height: 16px;
     margin-right: 20px;
     text-align:center;
     line-height: 20px;
     padding: 2px 6px;
-    width: 50px;
+    width: 130px;
 }
 
 .edit p{
     color: white;
-    font-size: 16px;
+    font-size: 12px;
+    float: right;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.delete{
+    background-color: #9B9B9B;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 20px;
+    text-align:center;
+    line-height: 20px;
+    padding: 2px 6px;
+    width: 110px;
+}
+
+.delete p{
+    color: white;
+    font-size: 12px;
     float: right;
     line-height: 16px;
     margin: 0px;
