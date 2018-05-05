@@ -43,28 +43,22 @@
                 <li>土　11時00分〜19時00分</li>
                 <li>日　11時00分〜19時00分</li>
             </ul>
-            <p>webページ</p>
-            <div class="view-map">
-                <img id="arrow" src="arrow2.png">
-                <p id="map-text">地図アプリで見る</p>
-            </div>
 
-            <div class="tag-line">
-                <div class="tag">
-                    <p>沼袋</p>
-                </div>
-                <div class="tag">
-                    <p>居酒屋</p>
+            <div id="btnsDrawer">
+                <input type="checkbox" name="checkbox" id="btnsIcon">
+                <label for="btnsIcon"><i class="fas fa-ellipsis-h"></i></label>
+                <label id="layer" for="btnsIcon"></label>
+                <div id="btnsList" for="btnsIcon">
+                    <img id="logoInList" class="logo2" src="logo2.png">
+                    <ul>
+                        <li class="btn">地図アプリで見る</li>
+                        <li class="btn">このスポットを編集</li>
+                        <li class="btn">このスポットを削除</li>
+                    </ul>
                 </div>
             </div>
             <textarea readonly class="textarea" rows="10" cols="60" placeholder="メモ"></textarea>
-            <div class="edit">
-                <i class="fas fa-pen-square"></i>
-                <p>このスポットを編集</p>
-            </div>
-            <div class="delete">
-                <p>このスポットを削除</p>
-            </div>
+
             <div class="enter">他のマイマップに追加</div>
         </content> 
     </body>
