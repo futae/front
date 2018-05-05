@@ -66,12 +66,20 @@
         font-size: 12px;
         line-height: 163px;
         float: left;
-        height: 157px;
+        height: 145px;
         text-align: center;
         margin-right: 10px;
         margin-bottom: 10px;
         position: relative;
         width: 145px; 
+    }
+
+    .box-pic{
+        border-radius: 5px;
+        height: 145px;
+        object-fit: cover;
+        opacity: 0.65;
+        width: 145px;
     }
     .enter{
         background-color: #70CADF;
