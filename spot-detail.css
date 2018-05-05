@@ -47,8 +47,8 @@ content{
 .trimmed-pic{
     height: 220px;
     object-fit: cover;
-    margin-left: 15px;
-    width: 345px;
+    margin-bottom: 30px;
+    width: 375px;
 }
 
 .color-dot{
@@ -170,4 +170,31 @@ content p{
     bottom: 20px;
     text-align: center;
     width: 375px;
+}
+
+.edit{
+    background-color: #9B9B9B;
+    border-radius: 5px;
+    color: white;
+    display: inline;
+    float: right;
+    height: 16px;
+    margin-right: 20px;
+    text-align:center;
+    line-height: 20px;
+    padding: 2px 6px;
+    width: 50px;
+}
+
+.edit p{
+    color: white;
+    font-size: 16px;
+    float: right;
+    line-height: 16px;
+    margin: 0px;
+}
+
+.fa-pen-square{
+    color: white;
+    float: left;
 }
