@@ -226,7 +226,7 @@ content{
 }
 
 .box{
-    background-color: black;
+    background-color: #cccccc
     border-radius: 5px;
     color: white;
     display: block;
@@ -242,9 +242,18 @@ content{
 }
 
 .box:hover{
+    background-color: black;
+    border-radius: 5px;
     cursor: pointer;
     cursor: hand;
-    opacity: 0.5;
+}
+
+.box-pic{
+    border-radius: 5px;
+    height: 157px;
+    object-fit: cover;
+    opacity: 0.65;
+    width: 157px;
 }
 
 .title{
