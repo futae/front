@@ -75,4 +75,15 @@
         margin: 0px;
         margin-left: 10px;
     }
+
+    label {
+        font-size: 13px;
+    }
+
+    .switch-column{
+        height: 70px;
+        line-height: 40px;
+        margin-right: 10px;
+        width: 310px;
+    }
 }

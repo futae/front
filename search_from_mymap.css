@@ -188,7 +188,6 @@ overflow: hidden;
 #eat:checked + label{
     background-color: #FAAC2A;
 }
-
 #see:checked + label{
     background-color: #21BE3A;
 }
