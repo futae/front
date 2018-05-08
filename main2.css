@@ -166,43 +166,6 @@ content{
     width: 180px;
 }
 
-.discription{
-    color: #9B9B9B;
-    font-size: 12px;
-    height: 60px;
-    line-height: 20px;
-    margin:30px auto;
-    text-align: center;
-    width: 375px;
-}
-
-.disc-1{
-    border-bottom: none; 
-    color: #9B9B9B;
-    cursor: pointer;
-    cursor: hand;
-    display: inline-block;
-    float: left;
-    margin-left: 40px;
-    margin-right: 37px;
-    padding: 5px;
-    width: 100px;
-}
-
-.disc-2{
-    border-bottom: solid medium #70CADF; 
-    color: #696969;
-
-    cursor: pointer;
-    cursor: hand;
-    display: inline-block;
-    margin-left: 37px;
-    margin-right: 40px;
-    float: left;
-    padding: 5px;
-    width: 100px;
-}
-
 .detailBox{
     background-color: #cccccc;
     border-radius: 5px;
@@ -222,6 +185,14 @@ content{
     position: absolute;
     right: 10px;
     top: 10px;
+}
+
+.detailBox:hover{
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: hand;
+    opacity: none;
 }
 
 .detailTitle{
