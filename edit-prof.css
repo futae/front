@@ -59,6 +59,7 @@ content{
     margin-left: 85px;
     opacity: 0.7;
     width: 200px;
+    object-fit: cover;
 }
 
 .edit-icon-btn{

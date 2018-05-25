@@ -247,14 +247,15 @@ content{
     border-radius: 5px;
     cursor: pointer;
     cursor: hand;
+    opacity: none;
 }
 
 .box-pic{
     border-radius: 5px;
     height: 157px;
     object-fit: cover;
-    opacity: 0.65;
     width: 157px;
+    opacity: 0.65;
 }
 
 .title{
@@ -320,5 +321,5 @@ content{
     font-size: 8px;
     line-height: 8px;
     position: absolute;
-    width: 163px;
+    width: 157px;
 }
